@@ -1,0 +1,59 @@
+.movie {
+    width: 100%;
+    height: calc(100vh - 5rem);
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie-container {
+    width: 80%;
+    height: fit-content;
+    padding: 5rem 10rem;
+    display: flex;
+    gap: 2rem;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.movie-img-container {
+    width: 30rem;
+    height: 33rem;
+}
+
+.movie-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie-info .title {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.6rem;
+}
+
+.movie-info h1 {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 1.4rem;
+    margin-top: -0.5rem;
+}
+
+.movie-info span {
+    font-family: "JetBrains Mono", monospace;
+    font-weight: lighter;
+    font-size: 1.3rem;
+}
+
+.list-items-movie {
+    display: flex;
+    margin-top: -1rem;
+}
+
+.mt {
+    margin-top: 0.8rem !important;
+}
