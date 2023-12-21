@@ -1,4 +1,5 @@
-export const FetchTvShowDetails = async (tvId: string) => {
+/* eslint-disable @typescript-eslint/no-explicit-any */
+export const FetchTvShowDetails = async (tvId: any) => {
   const res = await fetch(
     `https://api.themoviedb.org/3/tv/${tvId}?language=en-US`,
     {
