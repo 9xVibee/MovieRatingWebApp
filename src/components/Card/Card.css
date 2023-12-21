@@ -47,5 +47,16 @@ a {
 
 .card-info-section p {
     font-family: "JetBrains Mono", monospace;
+}
 
+@media screen and (max-width:426px) {
+    .card {
+        width: 25rem;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .card {
+        width: 20rem;
+    }
 }

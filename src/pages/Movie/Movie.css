@@ -57,3 +57,37 @@
 .mt {
     margin-top: 0.8rem !important;
 }
+
+@media screen and (max-width:768px) {
+    .movie {
+        margin-top: 20rem;
+    }
+
+    .movie-container {
+        flex-direction: column;
+        width: 80%;
+        padding: 5rem 1rem;
+    }
+
+    .production-company {
+        display: none;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .movie-img-container {
+        width: 20rem;
+        height: 25rem;
+    }
+
+    .movie-container {
+        width: 90%;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .movie-container {
+        width: 100%;
+    }
+}

@@ -36,6 +36,9 @@ const Auth = () => {
           color="black"
           textAlign="center"
           className="heading-auth"
+          style={{
+            marginTop : "10rem"
+          }}
         >
           Welcome! Login by registering as a Guest below.
         </Header>

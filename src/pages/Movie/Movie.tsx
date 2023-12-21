@@ -49,8 +49,8 @@ const Movie = () => {
             Popularity : <span>{data.popularity}</span>
           </h1>
 
-          <h1>Production Companies : </h1>
-          <div className="list-items-movie">
+          <h1 className="production-company">Production Companies : </h1>
+          <div className="list-items-movie production-company">
             {data.production_companies.map((company: any) => (
               <span className="list-item">{company.name},</span>
             ))}

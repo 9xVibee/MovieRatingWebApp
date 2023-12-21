@@ -63,3 +63,20 @@
         padding: 0.25em 0.75em;
     }
 }
+
+@media screen and (max-width:768px) {
+    .navbar {
+        padding: 1rem 1rem;
+    }
+}
+
+@media screen and (max-width:321px){
+    .navbar {
+        padding: 1rem 0.5rem;
+    }
+    .button-54 {
+        width: 5.2rem !important;
+        font-size: 0.9rem !important;
+        font-weight: bold !important;
+    }
+}

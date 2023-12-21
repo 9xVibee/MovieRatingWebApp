@@ -9,7 +9,7 @@ import TvShow from "./pages/TvShow/TvShow";
 
 function App() {
   return (
-    <div>
+    <div className="MainContainer">
       <Router>
         <Navbar />
         <Routes>
