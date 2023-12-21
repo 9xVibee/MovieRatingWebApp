@@ -4,6 +4,7 @@ import ColumnDisplay from "./Column-Display";
 import { useQuery } from "@tanstack/react-query";
 import { FetchMovie, FetchTvShows } from "./query";
 import { Loader } from "semantic-ui-react";
+import { Navigate } from "react-router-dom";
 
 export enum DisplayType {
   Movies = "movies",
@@ -23,6 +24,10 @@ const Home = () => {
     queryKey: ["tvshows"],
     queryFn: FetchTvShows,
   });
+
+  if (localStorage.getItem("guest_session_id") === null) {
+    return <Navigate to={"/auth"} />;
+  }
   return (
     <div className="home">
       <div className="buttons-container">
